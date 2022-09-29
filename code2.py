@@ -87,10 +87,9 @@ item = 567
 price = 77
 order = "I want {} pieces of item {} for {} dollars."
 print(order.format(quantity, item, price))
-"""
 
 import random
-a = random.randint(1,10)
+a = random.randint(1 ,10)
 b = 0
 while 1:
     b = int(input("Tap a number"))
@@ -100,3 +99,18 @@ while 1:
     else:
         print("incorrect")
 
+s = 4
+f = int(input('Tap a number'))
+
+while s != f:
+    if f > s:
+
+        print("Your variant is higher, try again")
+
+    else:
+
+        print("Your variant is to small, try again")
+
+    f = int(input("Tap a number"))
+print("Congrats")
+"""
