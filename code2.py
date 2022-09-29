@@ -1,4 +1,8 @@
-"""a = 1
+#LESSON4
+
+
+"""
+a = 1
 while a < 18:
     print('You are' + str(a) + "years old")
     a += 1
@@ -68,5 +72,13 @@ if 'bravo' != 'Bravo':
     print("Yes")
 else:
     print("sorry")
-"""
 
+a = "Hello"
+print(a.upper())
+b = "Hello Jay"
+print(b.replace("H", "S"))
+
+age = 14
+txt = "John is {}"
+print(txt.format(age))
+"""
