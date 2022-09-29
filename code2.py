@@ -30,10 +30,43 @@ print(a * b)
 print(a ** b)
 print(a / b)
 print(b % a)
-"""
 
 a = 8
 b = -3
 a,b = b,a
 print(a)
 print(b)
+
+
+
+
+
+a = "hello World"
+print(a[1])
+
+for x in 'banana':
+    print(x)
+
+f = 'sod'
+for i in range(0, 3):
+    print(f[i])
+
+g ='halo'
+print(len(g))
+
+txt = 'soccer rules 123'
+print('1' in txt)
+
+txt1 = "Mama ok"
+if "ok" in txt1:
+    print("slay")
+else:
+    print('sorry')
+
+txt2 = 'bravo'
+if 'bravo' != 'Bravo':
+    print("Yes")
+else:
+    print("sorry")
+"""
+
