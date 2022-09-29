@@ -1,4 +1,7 @@
-"""print("hello World")
+#LESSON3
+
+"""
+print("hello World")
 print("hello \" World")
 
 Var = 5

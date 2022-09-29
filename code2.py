@@ -81,4 +81,22 @@ print(b.replace("H", "S"))
 age = 14
 txt = "John is {}"
 print(txt.format(age))
+
+quantity = 3
+item = 567
+price = 77
+order = "I want {} pieces of item {} for {} dollars."
+print(order.format(quantity, item, price))
 """
+
+import random
+a = random.randint(1,10)
+b = 0
+while 1:
+    b = int(input("Tap a number"))
+    if b == a:
+        print('Correct')
+        break
+    else:
+        print("incorrect")
+
