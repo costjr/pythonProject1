@@ -65,8 +65,14 @@ print(set_array)
 print(set_array_2)"""
 
 
-dictionary = {'Key' : 'Value', "Int": 3, "Float": 23.4, "Bool": True}
+"""dictionary = {'Key' : 'Value', "Int": 3, "Float": 23.4, "Bool": True}
 print(dictionary.get('Key'))
 dictionary.update({'Int': 4})
 dictionary['Key'] = "New value"
-print(dictionary)
+print(dictionary)"""
+
+
+
+
+
+
