@@ -72,7 +72,24 @@ dictionary['Key'] = "New value"
 print(dictionary)"""
 
 
+register=[]
+student={}
+st_num = int(input("How Many students do you want to add"))
+sub_num = int(input("How Many Subjetc do they have?"))
 
+for a in range(0, st_num):
+    s_name = input("name")
+    student.update({"name": s_name})
+
+    for b in range(0, sub_num):
+        subject = input('subject')
+        mark = int(input("Mark:"))
+
+        student.update({subject: mark})
+
+    register.append(student.copy())
+
+print(register)
 
 
 
