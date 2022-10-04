@@ -84,8 +84,10 @@ for a in range(0, st_num):
     for b in range(0, sub_num):
         subject = input('subject')
         mark = int(input("Mark:"))
-
+        tmn = int(input("Total Mark number:"))
+        mmark = int(input("Medium Mark:"))
         student.update({subject: mark})
+        student.update({tmn: mmark})
 
     register.append(student.copy())
 
