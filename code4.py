@@ -67,3 +67,10 @@ for i in range(1,10):
         break
     Hp =heal(Hp)
     print("HP =", Hp, "Armor =", Armor)"""
+
+#miss
+"""for i in range(1, 100):
+
+    if i %3 == 0:
+        print("miss")"""
+

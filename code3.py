@@ -72,7 +72,7 @@ dictionary['Key'] = "New value"
 print(dictionary)"""
 
 
-register=[]
+"""register=[]
 student={}
 st_num = int(input("How Many students do you want to add"))
 sub_num = int(input("How Many Subjetc do they have?"))
@@ -91,7 +91,6 @@ for a in range(0, st_num):
 
     register.append(student.copy())
 
-print(register)
-
+print(register)"""
 
 
