@@ -68,8 +68,10 @@ class ChatBot(MDApp):
             response = "CR7!"
         elif value.lower()[0:32] ==  "what do you do in your free time":
             response = "I play COD!"
-        elif value.lower()[0:31] == "how many languages do you speak":
+        elif value.lower()[0:31] == "C":
             response = "I speak only english!"
+        elif value.lower()[0:8] ==  "good bye!":
+            response = "Have a nice day:)"
         else:
             response = "Sorry could you say that again?"
         screen_manager.get_screen('chats').chat_list.add_widget(Response(text=response, size_hint_x=.75))
